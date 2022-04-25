@@ -1,0 +1,42 @@
+<link rel="stylesheet" type="text/css" href="/style.css"/>
+<header>
+    <%- include('partials/header') %>
+</header>
+
+<body>
+    <!-- <%console.log(value)%> -->
+    <div class="editCard">
+        <h1>Editing  <%=value.character %></h1>
+        <form class="form" action="/simpsons/<%=value.id%>?_method=PUT" method="POST" >
+            
+            <div class="input">
+                <label class='label' for="character">Name:</label>
+                <input class='eInput' type='text' name='character' value="<%=value.character%>"/>
+                <label class='label' for="image">Image/GIF:</label>
+                <input class='eInput' type='text' name='image' value="<%=value.image%>"/>
+                <label class='label' for="quote">Quote:</label>
+                <input class='eInput' type='text' name='quote' value="<%=value.quote%>"/>
+                <label class='label' for="characterDirection">Character Direction?:</label>
+                <select name="characterDirection" >
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value="left">left</option>
+                    <option value="right">right</option>
+                </select>
+                <label class='label' for="favorite">favorite?:</label>
+                <select name="favorite" >
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value="false">No</option>
+                    <option value="true">Yes</option>
+                </select>
+            </div>
+                <br/>
+                <input class='button submit' type="submit"  />
+                <a  class='button cancel' href="/simpsons">Cancel</a>
+        
+        </form>
+    </div>
+</body>
+
+<footer>
+    <%- include('partials/footer') %>
+</footer>

@@ -1,0 +1,154 @@
+
+body {
+    /* background-color: yellow; */
+    background-image: url("https://i.pinimg.com/originals/83/05/94/8305940d6d4ea3f5e89480d4fc081ad2.jpg");
+}
+.button{
+    padding: 10px;
+    border: 5px;
+    border: none;
+    cursor: pointer;
+}
+.add{
+    background-color: black;
+    color: white;
+}
+.navLink {
+    width: 98%;
+    background-color: black;
+    height: 60px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li {
+    cursor: pointer;
+    list-style: none;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    border-radius: 5px;
+    border: 1px black solid;
+    cursor: pointer;
+    width: 110px;
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 325px);
+    grid-gap: 20px;
+}
+.cards {
+    background-color: gray;
+    height: 240px;
+    max-width: 100%;
+    border: 1px black solid;
+}
+.image {
+    border: 2px black solid;
+    align-self: center;
+    width: 99%;
+    height: 180px;
+}
+.Btn {
+    display: flex;
+    flex-direction: row;
+    height: 38px;
+}
+.edit {
+    background-color: blue;
+}
+.delete {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+.view {
+    background-color: darkkhaki;
+}
+.favorited {
+    background-color: pink;
+}
+.name{
+    color: yellow;
+    font-style: oblique;
+}
+footer{
+    position:fixed;
+    bottom: 0px;
+    right:0;
+    color: #000;
+    text-align: right;
+    padding: 10px 30px;
+}
+.viewImage {
+    width: 500px;
+    max-height: 375px;
+    border: 3px black solid;
+}
+.viewCard {
+    text-align: center;
+    background-color: lightyellow;
+    height: 710px;
+    border: 3px black solid;
+    
+}
+.viewHeader {
+    text-align: center;
+}
+.editCard {
+    text-align: center;
+    background-color: lightpink;
+    height: 225px;
+    border: 3px black solid;
+}
+.label {
+    font-weight: bold;
+}
+.cancel {
+    background-color: lightcoral;
+    
+}
+.submit {
+    background-color: seagreen;
+    width: 75px;
+    color: white;
+}
+.showDelete {
+    background-color: red;
+    margin-top: 20px;
+    width: 75px;
+    color: white;
+}
+.showEdit {
+    background-color: blue;
+    width:100px;
+}
+.addBtn {
+    margin-top: 25px;
+}
+.Idelete {
+    height: 38px;
+    background-color: red;
+    color: white;
+}
+.new {
+    text-align: center;
+    background-color: lightblue;
+    height: 225px;
+    border: 3px black solid;
+}
+.bigB {
+    color: white;
+
+}
+.viewBtns {
+    
+}

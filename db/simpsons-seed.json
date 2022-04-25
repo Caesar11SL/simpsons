@@ -1,0 +1,30 @@
+[
+    {
+        "character": "Homer Simpson",
+        "quote": "D'oh",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/11/16/12/homer-simpson.jpeg?quality=75&width=1200&auto=webp",
+        "characterDirection": "left",
+        "favorite": "true"
+    },
+    {
+        "character": "Lisa Simpson",
+        "quote": "D'oh",
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Lisa-Simpson.The-Simpsons.webp",
+        "characterDirection": "right",
+        "favorite": "true"
+    },
+    {
+        "character": "Marge Simpson",
+        "quote": "D'oh",
+        "image": "https://www.cheatsheet.com/wp-content/uploads/2021/09/Marge-Simpson-raises-her-stage-manager-prompt-book.jpg",
+        "characterDirection": "left",
+        "favorite": "false"
+    },
+    {
+        "character": "Bart Simpson",
+        "quote": "D'oh",
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/07/The-Worst-Things-Bart-Simpson-Has-Ever-Done-Ranked.jpg",
+        "characterDirection": "left",
+        "favorite": "false"
+    }
+]

@@ -1,0 +1,41 @@
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<header>
+    <%- include('partials/header') %>
+</header>
+
+<body>
+    <div class="new">
+        <h1>Adding New Character</h1>
+        <form class="form" action="/simpsons/add" method="POST">
+            
+            <div class="inputParent">
+                <label class='label' for="character">Character Name:</label>
+                <input class='input' type='text' name='character'/>
+                <label class='label' for="image">Image/GIF(URL):</label>
+                <input class='input' type='text' name='image'/>
+                <label class='label' for="quote">Quote:</label>
+                <input type="text" name="quote" />
+                <label class='label' for="characterDirection">character direction:</label>
+                <select name="characterDirection">
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value="left">left</option>
+                    <option value="right">right</option>
+                </select>
+                <label class='label' for="favorite">favorite?:</label>
+                <select name="favorite">
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+            </div>
+            
+            <input class='button submit addBtn' type="submit" />
+            <a  class='button cancel addBtn ' href="/simpsons">Cancel</a>
+        </form>
+    </div>
+    </body>
+    
+    <footer>
+    <%- include('partials/footer') %>
+</footer>

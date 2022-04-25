@@ -1,0 +1,40 @@
+<link rel="stylesheet" type="text/css" href="/style.css"/>
+
+<header>
+    <%- include('partials/header') %>
+</header>
+
+<body>
+
+    <div class="container">
+        <% stuff.forEach(S => { %>
+            <div class="cards">
+                <div class="name"> <%=S.character %> </div>
+                <img class="image" src='<%=S.image%>'/>
+                <div class="Btn">
+                    <a class='button view' href="/simpsons/<%=S.id%>"> view </a>
+                    <a class='button edit' href="/simpsons/edit/<%=S.id%>"> edit </a>
+                   
+                    <form class='' action="/simpsons/<%=S.id%>?_method=DELETE" method="POST">
+                        <input class="button Idelete" type="submit" value="delete" href='/simpsons'>
+                    </form>
+
+                    <form action="/simpsons/<%=S.id%>/<%=S.favorite%>?_method=PUT" method="POST" >
+                            <% if (S.favorite == true) { %>
+                            <input class="button favorited bigB" type="submit" value="favorited!" >
+                            <% } else { %>
+                                <input class="button favorite bigB" type="submit" value="favorite?">
+                    <% } %>
+                </form>
+                    
+
+                </div>
+            </div>
+       <% }) %>
+    </div>
+
+</body>
+
+<footer>
+    <%- include('partials/footer') %>
+</footer>

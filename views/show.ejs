@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<header>
+    <%- include('partials/header') %>
+</header>
+
+<body>
+    <div class="viewCard">
+        <h1 class="viewHeader">You are viewing <%=view.character %></h1>
+
+        <img class="viewImage" src="<%=view.image %>" />
+            <h3>Favorite saying: <%=view.quote %></h3>
+            <p>Direction facing: <%=view.characterDirection %> </p>
+            <form action="/simpsons/<%=view.id%>/<%=view.favorite%>?_method=PUT" method="POST" >
+                <% if (view.favorite == true) { %>
+                <input class="button favorited bigB" type="submit" value="favorited!" >
+                <% } else { %>
+                    <input class="button favorite bigB" type="submit" value="favorite?">
+        <% } %>
+    </form>
+                    <div class="viewBtns">
+
+                        <a class='button showEdit' href="/simpsons/edit/<%=view.id%>"> edit </a>
+                        
+                        <form class='form' action="/simpsons/<%=view.id%>?_method=DELETE" method="POST">
+                            <input class="button showDelete" type="submit" value="delete" />
+                        </form>
+                    </div>
+                
+            </div>
+
+</body>
+
+<footer>
+    <%- include('partials/footer') %>
+</footer>
