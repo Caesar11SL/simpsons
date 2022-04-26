@@ -30,7 +30,10 @@ These operations are used to interact with the http by using protocols. This pro
   
   
 ## Screenshots 
-
+![Gallery](/screenshots/gallery.png)
+![viewPage](/screenshots/view.png)
+![newPage](/screenshots/new.png)
+![editPage](/screenshots/edit.png)
 ## Goals in the future 
  -Adding user authentication to allow people to save their catalog to their own account
  
