@@ -11,6 +11,12 @@ router.use(express.static('public'))
 router.use(methodOverride('_method'))
 
 
+// HOME PAGE
+router.get('/home', (req, res) => {
+    res.render('home')
+})
+
+
 
 // READ
 router.get('/', (req, res) => {

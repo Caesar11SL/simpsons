@@ -150,5 +150,11 @@ footer{
 
 }
 .viewBtns {
-    
+
+}
+.homePage {
+    text-align: center;
+    background-color: orange;
+    height: 225px;
+    border: 3px black solid;
 }
