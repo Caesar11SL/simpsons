@@ -2,6 +2,7 @@
 body {
     /* background-color: yellow; */
     background-image: url("https://i.pinimg.com/originals/83/05/94/8305940d6d4ea3f5e89480d4fc081ad2.jpg");
+    max-width: 100%;
 }
 .button{
     padding: 10px;
