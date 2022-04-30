@@ -10,23 +10,19 @@ router.use(express.urlencoded({extended: true}))
 router.use(express.static('public'))
 router.use(methodOverride('_method'))
 
+// READ
+router.get('/', (req, res) => {
+    Simpson.find({}) 
+    .then(data => res.render('index', { stuff: data }) )
+    .catch(console.error)
+})
 
 // HOME PAGE
 router.get('/home', (req, res) => {
     res.render('home')
 })
 
-
-// READ
-router.get('/', (req, res) => {
-    // axios.get('https://thesimpsonsquoteapi.glitch.me/quotes')
-    // .then(Sdata => console.log(Sdata.data))
-    Simpson.find({}) 
-    .then(data => res.render('index', { stuff: data }) )
-    .catch(console.error)
-})
-
-
+// EDIT BY ID
 router.get('/edit/:id', (req, res) => {
     const id = req.params.id
     Simpson.findById(id)
@@ -74,6 +70,7 @@ router.put('/:id', (req, res) => {
     .catch(console.error)
 })
 
+// FAV BTN 
 router.put('/:id/:favValue', (req, res) => {
     const id = req.params.id
     const fav = req.params.favValue === "true"? true : false
