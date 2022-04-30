@@ -41,3 +41,5 @@ These operations are used to interact with the http by using protocols. This pro
  
  -Make mobile friendly 
  
+ -Allow adding files for pictures wanted 
+ 
