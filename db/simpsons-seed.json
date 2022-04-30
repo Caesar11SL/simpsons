@@ -2,28 +2,84 @@
     {
         "character": "Homer Simpson",
         "quote": "D'oh",
-        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/11/16/12/homer-simpson.jpeg?quality=75&width=1200&auto=webp",
-        "characterDirection": "left",
+        "image": "https://i.pinimg.com/originals/b1/b1/33/b1b13338be2b0bdef8811ba704c80ab6.gif",
+        "characterDirection": "right",
         "favorite": "true"
     },
     {
         "character": "Lisa Simpson",
-        "quote": "D'oh",
+        "quote": "I Just Think It's A Fantasy. If You Believe In Angels, Why Not Sea Monsters, Unicorns Or Leprechauns?",
         "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Lisa-Simpson.The-Simpsons.webp",
         "characterDirection": "right",
         "favorite": "true"
     },
     {
         "character": "Marge Simpson",
-        "quote": "D'oh",
+        "quote": "I've always wanted to use rosemary in something",
         "image": "https://www.cheatsheet.com/wp-content/uploads/2021/09/Marge-Simpson-raises-her-stage-manager-prompt-book.jpg",
         "characterDirection": "left",
         "favorite": "false"
     },
     {
         "character": "Bart Simpson",
-        "quote": "D'oh",
+        "quote": "Eat my shorts",
         "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/07/The-Worst-Things-Bart-Simpson-Has-Ever-Done-Ranked.jpg",
+        "characterDirection": "left",
+        "favorite": "false"
+    },
+    {
+        "character": "Milhouse Van Houten",
+        "quote": "Everything is coming up Milhouse!",
+        "image": "https://www.pngitem.com/pimgs/m/533-5333517_simpsons-milhouse-van-houten-hd-png-download.png",
+        "characterDirection": "right",
+        "favorite": "true"
+    },
+    {
+        "character": "Ralph Wiggum",
+        "quote": "I'm in danger",
+        "image": "https://64.media.tumblr.com/cc6de2cf821e7fa4a75b7691b551c2bd/32c2af834a8f0fa3-b8/s500x750/4fd8064b16b3e3ed7530e7f9ed435f538c5e96c5.gifv",
+        "characterDirection": "left",
+        "favorite": "true"
+    },
+    {
+        "character": "Moe Szyslak",
+        "quote": "I’m Gonna Die And I’ve Never Even Tasted Cantaloupe!",
+        "image": "https://i.pinimg.com/originals/26/65/69/2665699d0a5f8aaac0aef01b69fd2dbb.png",
+        "characterDirection": "left",
+        "favorite": "false"
+    },
+    {
+        "character": "Ned Flanders",
+        "quote": "Hi diddly ho neighborinos!",
+        "image": "https://planet.s3.us-east-1.wasabisys.com/2021/09/this-would-be-ned-flanders-from-the-simpsons-with-a-jpg.webp",
+        "characterDirection": "right",
+        "favorite": "false"
+    },
+    {
+        "character": "Fat Tony",
+        "quote": "Do Him Two Favors And Then Remind Him That He Owes Us A Favor.",
+        "image": "https://i.kinja-img.com/gawker-media/image/upload/c_scale,f_auto,fl_progressive,pg_1,q_80,w_800/jbjdnmgduepfkhmnq1fo.jpg",
+        "characterDirection": "left",
+        "favorite": "false"
+    },
+    {
+        "character": "Krusty the Clown",
+        "quote": "I Work Like I Drink. Alone, But With A Monkey Watching Me.",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/09/26/11/krusty-the-clown.png?quality=75&width=982&height=726&auto=webp",
+        "characterDirection": "left",
+        "favorite": "false"
+    },
+    {
+        "character": "Carl Carlson",
+        "quote": "Lenny is my bestfriend",
+        "image": "https://www.ladbible.com/cdn-cgi/image/width=1200,quality=70,format=jpeg,fit=contain,dpr=1/https%3A%2F%2Fs3-images.ladbible.com%2Fs3%2Fcontent%2F1189c7935f6dc4c24dd23fc72d8c9d8b.png",
+        "characterDirection": "left",
+        "favorite": "false"
+    },
+    {
+        "character": "Lenny Leonard",
+        "quote": "Carl is my bestfriend",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdTtzXkjuvICGWvUv_DXmGiOSwXiDtRu8rkA&usqp=CAU",
         "characterDirection": "left",
         "favorite": "false"
     }

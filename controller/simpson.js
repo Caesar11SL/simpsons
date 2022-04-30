@@ -18,7 +18,7 @@ router.get('/home', (req, res) => {
 
 
 // READ
-router.get('/simpsons', (req, res) => {
+router.get('/', (req, res) => {
     // axios.get('https://thesimpsonsquoteapi.glitch.me/quotes')
     // .then(Sdata => console.log(Sdata.data))
     Simpson.find({}) 
