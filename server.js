@@ -15,4 +15,4 @@ const port = process.env.PORT || 3005;
 
 app.listen(port, () => {
     console.log(`Express is listening on port: ${port} `)
-})
+})web: npm start
