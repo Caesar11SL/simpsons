@@ -1,7 +1,7 @@
 # The Simpsons' character catalog
 
 
-Live link via heroku: https://salty-escarpment-53097.herokuapp.com/simpsons/
+Live link via heroku: [Simpsons Catalog](https://csl-simpsons-project.herokuapp.com/simpsons/)
 
 ## Project description 
 This is my attempt at my first fully functional CRUD application. A CRUD applications constist of four operations; CREATE, READ, UPDATE and DELETE.
